@@ -10,6 +10,18 @@ header{
     margin-left: 60px;
 }
 
+.Discover{
+    display: flex;
+    margin-top: -520px;
+    margin-left: 430px;
+    gap: 30px;
+    height: 400px;
+}
+.Right{
+    margin-top: 120px;
+    height: 450px;
+}
+
 header h1{
     font-family: "Avenir-Heavy";
     font-size: 56px;
