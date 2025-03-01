@@ -4,3 +4,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header h1{
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+    text-align: center;
+    font-size: 64px;
+    margin-top: 45px;
+}
+
+header p{
+    font-family: "Avenir-Roman";
+    color: var(--color-3);
+    text-align: center; 
+    font-size: 26px;
+    font-weight: 550;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+header a{
+    color: var(--color-4);
+    text-decoration: none;
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--color-2);
+    border-radius: 16px;
+    margin-top: 30px;
+    width: 180px;
+    height: 60px;
+}
