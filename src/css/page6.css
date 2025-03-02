@@ -127,3 +127,43 @@ main{
     margin-top: -600px;
     height: 80px;
 }
+
+.Award1{
+    position: absolute;
+    background-color: var(--color-11);
+    width: 250px;
+    height: 52px;
+    border-radius: 20px;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: -600px;
+    margin-left: 255px;
+}
+
+.Award2{
+    display: flex;
+    justify-content: center;
+    font-family: "WorkSans-Regular";
+    font-size: 18px;
+    color: var(--color-4);
+}
+
+.Ergonomic1{
+    position: absolute;
+    background-color: var(--color-11);
+    width: 260px;
+    height: 60px;
+    border-radius: 20px;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: -160px;
+    margin-left: -35px;
+}
+
+.Ergonomic2{
+    display: flex;
+    justify-content: center;
+    font-family: "WorkSans-Regular";
+    font-size: 24px;
+    color: var(--color-4);
+}
