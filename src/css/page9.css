@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(165deg, var(--color-23), var(--color-24) 60%);
+    background: linear-gradient(165deg, var(--color-23), var(--color-24) 40%);
     height: 100vh;
 }
 header{
-    margin-left: 250px;
+    margin-left: 150px;
 }
 
 header h1{
@@ -42,4 +42,13 @@ header p{
     font-size: 24px;
     color: var(--color-4);
     text-decoration: none;
+}
+
+.description{
+    position: relative;
+}
+.right{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 550px;
 }
