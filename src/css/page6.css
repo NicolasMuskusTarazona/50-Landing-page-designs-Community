@@ -26,6 +26,55 @@ header{
     margin-left: 60px;
     margin-top: 70px;
 }
-.header1{
+
+header h1{
     font-family: "PlayfairDisplay-Bold";
+    font-size: 64px;
+    color: var(--color-10);
+}
+
+header p{
+    font-family: "WorkSans-Regular";
+    font-size: 23px;
+    color: var(--color-7);
+    margin-top: 15px;
+}
+
+.links{
+    display: flex;
+    font-family: "WorkSans-Medium";
+    gap: 40px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.Order{
+    display: flex;
+    background-color: var(--color-10);
+    border-radius: 20px;
+    width: 200px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Order1{
+    color: var(--color-4);
+    text-decoration: none;
+}
+
+.Explore{
+    display: flex;
+    background-color: var(--color-4);
+    border: 1px solid var(--color-12);
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Explore1{
+    color: var(--color-7);
+    text-decoration: none;
 }
