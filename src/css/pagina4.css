@@ -10,24 +10,24 @@ header{
 }
 header h1{
     font-family: "Avenir-Heavy";
-    font-size: 44px;
-    margin-top: 70px;
+    font-size: 50px;
+    margin-top: 55px;
     color: var(--color-2);
 }
 
 header p{
     margin-top: 20px;
     font-family: "Avenir-Roman";
-    font-size: 18px;
+    font-size: 20px;
     color: var(--color-3);
     font-weight: 500;
 }
 
-header div{
+.Explore1{
     display: flex;
     background: var(--color-2);
     margin-top: 20px;
-    width: 120px;
+    width: 130px;
     height: 50px;
     border-radius: 20px;
     align-items: center;    
@@ -35,16 +35,30 @@ header div{
     text-align: center;
 }
 
-.Explore{
+.Explore2{
     color: var(--color-4);
     font-family: "Avenir-Roman";
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
+}
+
+.General_Description{
+    margin-top: 60px;
+}
+
+.number{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+}
+
+.Description{
+    font-size: 20px;
 }
 
 main img{
     display: flex;
-    margin-top: -340px;
+    margin-top: -56%;
     margin-bottom: -10px;
+    width: 750px;
+    height: 800px;
 }
-
