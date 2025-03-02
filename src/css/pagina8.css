@@ -1,13 +1,55 @@
 @import url(variable.css);
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(160deg, var(--color-19), var(--color-20) 100%);
-    
 }
+
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+}
+
+/* Aplica el gradiente solo al body */
+body {
+    background: linear-gradient(1000deg, var(--color-19), var(--color-20) 10%);
+}
+
+header {
+    margin-left: 750px;
+}
+
+header h1 {
+    font-family: "WorkSans-Bold";
+    color: var(--color-4);
+    font-size: 88px;
+    margin-top: 60px;
+}
+
+header p {
+    font-family: "WorkSans-Light";
+    color: var(--color-4);
+    font-size: 24px;
+    margin-top: 40px;
+    line-height: 1.5; /* Espacio entre lineas de un texto*/
+}
+
+.Explore{
+    display: flex;
+    margin-top: 20px;
+    border-radius: 25px;
+    background: var(--color-21);
+    width: 230px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Explore1{
+    color: var(--color-18);
+    text-decoration: none;
+    font-family: "WorkSans-Medium";
+    font-size: 32px;
 }
