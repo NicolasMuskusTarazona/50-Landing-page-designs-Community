@@ -9,11 +9,12 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+
 }
 
 /* Aplica el gradiente solo al body */
 body {
+    overflow: hidden;
     background: linear-gradient(1000deg, var(--color-19), var(--color-20) 10%);
 }
 
@@ -25,7 +26,7 @@ header h1 {
     font-family: "WorkSans-Bold";
     color: var(--color-4);
     font-size: 88px;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 header p {
@@ -38,7 +39,7 @@ header p {
 
 .Explore{
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 25px;
     background: var(--color-21);
     width: 230px;
@@ -52,4 +53,32 @@ header p {
     text-decoration: none;
     font-family: "WorkSans-Medium";
     font-size: 32px;
+}
+
+.imgs{
+    display: flex;
+}
+
+.sun{
+    height: 620px;
+    margin-left: 5%;
+    margin-top: -54%;
+}
+.person{
+    position: absolute;
+    height: 720px;
+    margin-left: 6.5%;
+    margin-top: -50%;
+}
+
+.painting1{
+    margin-top: -54%;
+    margin-left: -48%;
+    height: 200px;
+}
+
+.painting2{
+    margin-top: -16%;
+    margin-left: 16%;
+    height: 200px;
 }
