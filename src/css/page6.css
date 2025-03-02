@@ -82,26 +82,48 @@ header p{
 main{
     font-family: "WorkSans-Regular";
     color: var(--color-7); /* 4 */
-    display: flex;
     margin-top: -500px;
     margin-left: 730px;
 }
 
 .big_line{
+    display: flex;
     margin-right: -70%;
     margin-top: -40px;
     height: 500px;
 }
 
 .line{
-    margin-left: 150px;
-    margin-top: 200px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: -260px;
     width: 300px;
     height: 450px;
+    z-index: 10px;
 }
 
+.big_star{
+    position: absolute;
+    margin-top: -750px;
+    margin-left: -65px;
+}
 .main_image{
+    position: absolute;
     width: 420px;
     height: 600px;
-    margin-left: -460px;
+    margin-top: -650px;
+    margin-left: 50px;
+}
+
+.star1{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -200px;
+}
+
+.star2{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -600px;
+    height: 80px;
 }
