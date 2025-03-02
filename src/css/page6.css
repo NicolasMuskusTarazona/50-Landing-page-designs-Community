@@ -1,0 +1,23 @@
+@import url(variable.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circle-svg {
+    display: block;
+    margin: 40px 0 0 0px;  /* margen superior e izquierdo */
+    width: 250px;           /* ancho reducido */
+    height: 250px;  
+}
+text {
+    font-family: "Times-Regular";
+    font-size: 16px;
+    fill: var(--color-7);
+}
+
+.clock{
+    display: flex;
+    margin-top: -210px;
+    margin-left: 64px;
+}
