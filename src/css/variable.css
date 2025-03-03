@@ -183,12 +183,12 @@
 
 @font-face {
     font-family:"Avenir-Heavy";
-    src: url(../stora/font/Avenir/Avenir-Heavy.ttf);
+    src: url(../storage/font/Avenir/Avenir-Heavy.ttf);
 }
 
 @font-face {
     font-family:"Avenir-Roman";
-    src: url(../stora/font/Avenir/Avenir-Roman.ttf);
+    src: url(../storage/font/Avenir/Avenir-Roman.ttf);
 }
 
 @font-face {
@@ -228,7 +228,7 @@
 
 @font-face {
     font-family:"Poppins-Regular";
-    src: url(../stora/font/Poppins/Poppins-Regular.ttf);
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
 }
 
 @font-face {
