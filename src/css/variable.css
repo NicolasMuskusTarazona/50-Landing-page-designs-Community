@@ -198,7 +198,7 @@
 
 @font-face {
     font-family:"Times-Regular";
-    src: url(../stora/font/Times/Times-Regular.ttf);
+    src: url(../storage/font/Times/Times-Regular.ttf);
 }
 
 @font-face {
@@ -228,7 +228,7 @@
 
 @font-face {
     font-family:"Poppins-Regular";
-    src: url(../stora/font/Poppins/Poppins-Regular.ttf);
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
 }
 
 @font-face {
