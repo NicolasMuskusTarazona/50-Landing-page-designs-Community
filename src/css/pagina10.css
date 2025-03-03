@@ -4,3 +4,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: var(--color-28);
+}
+
+header{
+    margin: 150px;
+}
+
+header h1 {
+    font-family: "Poppins-Bold";
+    font-size: 72px;
+}
+
+.color1{
+    color: var(--color-31);
+}
+
+.color2{
+    color: var(--color-30);
+}
+
+.color3{
+    color: var(--color-29);
+}
+
+header p{
+    font-family: "Poppins-Regular";
+    margin-top: 10px;
+    line-height: 40px;
+    color: var(--color-4);
+    font-size: 24px;
+}
+
+.Explore1{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 30px;
+    justify-content: center;
+    width: 180px;
+    height: 65px;
+    background-color: var(--color-4);
+}
+
+.Explore2{
+    font-family: "Poppins-Regular";
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--color-27);
+}
