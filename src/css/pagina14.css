@@ -5,3 +5,39 @@
     box-sizing: border-box;
 }
 
+header{
+    position: relative;
+    margin-top: 30vh;
+    left: 5vw;
+}
+
+h1{
+    font-family: "Poppins-Bold";
+    font-size: 3.33vw ;
+    color: var(--color-39);
+}
+
+p{
+    font-family: "Poppins-Light";
+    font-size: 1.25vw;
+    color: var(--color-39);
+}
+
+.Download1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: var(--color-41);
+    width: 250px;
+    height: 65px;
+    border-radius: 25px;
+}
+
+.Download2{
+    color: var(--color-39);
+    font-family: "Poppins-Regular";
+    font-size: 1.7vw;
+    justify-content: center;
+    text-decoration: none;
+}
