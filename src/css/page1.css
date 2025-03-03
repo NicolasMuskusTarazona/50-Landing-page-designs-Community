@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 header h1{
     font-family: "Avenir-Heavy";
     color: var(--color-2);
@@ -42,27 +43,33 @@ header div{
     height: 60px;
 }
 
-main{
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-bottom: 50px;
-}
 
 .Rectangles1{
     display: flex;
+    margin-top: 20px;
+    justify-content: center;  /* Centra los elementos horizontalmente */
+    align-items: center;  /* Centra los elementos verticalmente */
     height: 280px;
     gap: 15px;
 }
 
 .Rectangles2{
     display: flex;
+    justify-content: center;  /* Centra los elementos horizontalmente */
+    align-items: center;  /* Centra los elementos verticalmente */
     height: 280px;
     margin-top: 15px;
-    gap: 15px;
+    gap: 17px;
 }
 
-.Rectangle7,.Rectangle8{
-    display: flex;
+.Rectangle7{
     border-radius: 20px;
-    width: 307px;
+    height: 285px;
+    width: 315px;
+}
+
+.Rectangle8{
+    border-radius: 20px;
+    height: 285px;
+    width: 315px;
 }
