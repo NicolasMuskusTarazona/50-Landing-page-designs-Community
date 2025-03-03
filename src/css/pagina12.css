@@ -49,18 +49,37 @@ header p{
 .Spiral{
     margin-top: 30%;
     margin-left: 10%;
-    margin-bottom: 50px;
 }
 
 .Dawn1{
-    display: flex;
-    margin-left: 45%;
-    margin-top: -47%;
+    position: absolute;
+    margin-left:-8%;
+    margin-top:13%;
 }
 
 .Dawn2{
-    display: flex;
-    width:200px;
-    margin-left: 75%;
-    margin-top: -5%;
+    position: absolute;
+    width:220px;
+    margin-left: 28%;
+    margin-top: 25%;
+}
+
+.img1{
+    position: relative;
+    width: 280px;
+    margin-left: 2%;
+}
+
+.img2{
+    position: absolute;
+    width: 280px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.img3{
+    position: absolute;
+    width: 280px;
+    margin-left: 27%;
+    margin-top: -10%;
 }
