@@ -1,0 +1,43 @@
+@import url(variable.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-left: 40px;
+}
+
+header h1 {
+    margin-top: 100px;
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+    font-size: 72px;
+}
+
+header p{
+    margin-top: 15px;
+    font-family: "Avenir-Roman";
+    color: var(--color-3);
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.Explore1{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: var(--color-2);
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 55px;
+}
+
+.Explore2{
+    color: var(--color-4);
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    text-decoration: none;
+}
