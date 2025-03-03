@@ -58,3 +58,38 @@ header p{
     margin-left: -8%;
     top: -315px;
 }
+
+.category{
+    background-color: var(--color-2);
+    margin-top: -20%;
+    border-radius: 20px;
+    width: 92%;
+    height: 240px;
+    margin-left: 40px;
+}
+
+.clouds{
+    display: flex;
+    padding: 50px;
+    gap: 380px;
+}
+
+.titles{
+    font-family: "Avenir-Heavy";
+    color: var(--color-32);
+    font-size: 32px;
+    display: flex;
+    padding-left: 50px;
+    margin-top: -40px;
+    gap: 310px;
+}
+
+.categorytext{
+    font-family: "Avenir-Book";
+    color: var(--color-4);
+    font-size: 20px;
+    display: flex;
+    padding-left: 50px;
+    margin-top: 10px;
+    gap: 155px;
+}
