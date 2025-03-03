@@ -6,9 +6,10 @@
 }
 
 header{
-    position: absolute;
+    position: relative;
     margin-top: 12%;
-    margin-left: 36%;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -29,9 +30,11 @@ header p{
 }
 
 .Explore1{
-    position: absolute;
-    margin-left:85px;
-    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5%;
     background-color: var(--color-2);
     width: 180px;
     height: 62px;
@@ -39,12 +42,36 @@ header p{
 }
 
 .Explore2{
-    display: flex;
     color: var(--color-4);
     font-family: "Poppins-Regular";
     font-size: 24px;
-    margin-top: 12px;
     justify-content: center;
-    text-align: center;
     text-decoration: none;
+}
+
+.img{
+    position: absolute;
+}
+
+.number01{
+    position: absolute;
+    font-family: "Times-Bold";
+    font-size: 22px;
+    margin-top: -640px;
+    margin-left: 55px;
+}
+
+.number01text{
+    position: absolute;
+    font-family: "Times-Regular";
+    font-size: 20px;
+    margin-top: -600px;
+    margin-left: 55px;
+}
+
+
+.gradient{
+    margin-top: -800px;
+    margin-left: 300px;
+    height: 950px;
 }
