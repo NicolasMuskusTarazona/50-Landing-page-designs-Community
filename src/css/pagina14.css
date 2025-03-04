@@ -27,9 +27,9 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 3%;
     background-color: var(--color-41);
-    width: 250px;
+    width: 260px;
     height: 65px;
     border-radius: 25px;
 }
@@ -41,3 +41,66 @@ p{
     justify-content: center;
     text-decoration: none;
 }
+
+.imgs{
+    position: fixed;
+}
+
+.star{
+    position: fixed;
+    margin-top:-58vh;
+    left: 43vw;
+    height: 18vh;
+}
+
+.cellphone{
+    position: fixed;
+    top:50vh;
+    left: 46vw;
+    height: 68vh;
+}
+
+
+.big_yellow{
+    position: fixed;
+    margin-top:-50vh;
+    left: 48vw;
+    height: 68vh;
+}
+
+.big_brown{
+    position: fixed;
+    margin-top: -44vh;
+    left: 50vw;
+    height: 75vh;
+}
+
+.heart{
+    position: fixed;
+    margin-top:-26vh;
+    left: 57vw;
+    height: 30vh;
+}
+
+
+.Portal{
+    position: fixed;
+    margin-top: -51vh;
+    left: 72.5vw;
+    height: 20vh;
+}
+
+.portal1{
+    position: fixed;
+    margin-top: -26vh;
+    left: 85vw;
+    height: 18vh;
+}
+
+.star2{
+    position: fixed;
+    margin-top: 18vh;
+    left: 87vw;
+    height: 18vh;
+}
+
