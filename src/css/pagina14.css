@@ -104,3 +104,57 @@ p{
     height: 18vh;
 }
 
+.category{
+    background-color: var(--color-42);
+    position: relative;
+    border-radius: 30px;
+    width: 500px;
+    height: 150px;
+    top: 130px;
+    left: 60px;
+}
+
+.category p{
+    display: flex;
+    font-family: "Poppins-Bold";
+    color: var(--color-4);
+    margin-left: 30px;
+}
+
+.numbers{
+    display: flex;
+    gap: 45px;
+}
+
+.numbers p{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.lines{
+    display: flex;
+    margin-left: 40px;
+    gap: 85px;
+    margin-top: 20px;
+    border: none;           /* Elimina el estilo por defecto */
+}
+
+.sline{
+    display: flex;
+    width: 25px;
+    height: 4px;
+    background-color: var(--color-4);
+    color: var(--color-4);
+    margin-left: 30px;
+    margin-top: -15px; 
+}
+
+.categorytext{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px; 
+}
+
+
