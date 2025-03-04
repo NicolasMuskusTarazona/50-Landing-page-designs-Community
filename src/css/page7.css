@@ -1,0 +1,43 @@
+@import url(variable.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+    margin-top: 40px;
+    margin-left: 55px;
+    font-size: 64px;
+}
+
+.numbers{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 55px;
+    font-family: "Avenir-Heavy";
+    color: var(--color-16);
+    font-size: 30px;
+    gap: 260px;
+}
+
+.paragraphs{
+    display: flex;
+    margin-left: 55px;
+    margin-top: 20px;
+    font-family: "Avenir-Roman";
+    color: var(--color-3);
+    font-weight: 600;
+    font-size: 19px;
+    gap: 48px;
+}
+
+.imgs{
+    display: flex;
+    margin-left: 55px;
+    margin-top: 20px;
+    gap: 20px;
+    height: 350px;
+}
