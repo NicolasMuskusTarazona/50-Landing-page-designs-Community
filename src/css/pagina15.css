@@ -1,0 +1,41 @@
+@import url(variable.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    font-family: "Times-Regular";
+    margin-top: 10vh;    /* Altura fija pantalla */
+    margin-left: 7vw;    /* Ancho fijo pantalla */
+    color: var(--color-2);
+}
+
+h1 {
+    font-size: 7.11vh; 
+    line-height: 1.2em;  /* Espaciado fijo */
+}
+
+p{
+    font-size: 2.67vh;
+    line-height: 1.2em;
+}
+
+.started1 {
+    background-color: var(--color-48); 
+    display: flex;   
+    width: 14vw;      /* Tamaño fijo con VW */
+    height: 7vh;      /* Tamaño fijo con VH */
+    justify-content: center; 
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px; 
+}
+
+.started2{
+    font-family: "Poppins-Regular";
+    color: var(--color-4);
+    font-size: 2.22vh;
+    text-decoration: none;
+}
