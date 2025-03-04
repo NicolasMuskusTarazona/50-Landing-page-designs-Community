@@ -59,6 +59,7 @@ header div{
     align-items: center;  /* Centra los elementos verticalmente */
     height: 280px;
     margin-top: 15px;
+    margin-bottom: 60px;
     gap: 17px;
 }
 
