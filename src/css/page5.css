@@ -15,31 +15,45 @@ header h1{
 }
 
 .numbers{
+    position: absolute;
     display: flex;
-    margin-top: 50px;
-    margin-left: 40px;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-left: -10vw; /* Margen adaptable al ancho */
     font-family: "Avenir-Heavy";
-    font-size: 32px;
+    font-size: 3vw;
+    width: 100%;
     color: var(--color-6);
     gap: 30%;
 }
 
 .description{
+    position: relative;
     display: flex;
-    margin-left: 40px;
-    text-align: left;
+    justify-content: center;
+    top: 100px;
+    margin-left: 1vw; /* Margen adaptable al ancho */
+    width: 100%;
     font-family: "Avenir-Roman";
-    font-size: 22px;
+    font-size: 1.6vw;
     color: var(--color-3);
     font-weight: 500;
-    gap: 52px;
+    gap: 8%;
 }
 
-.images{
+.images {
+    position: absolute; /* Cambiado a absolute para que se comporte igual que los números */
     display: flex;
-    margin-top: 20px;
-    margin-left: 40px;
-    gap: 40px;
-    height: 320px;
-    margin-bottom: 20px;
+    margin-top: 36vh; /* Margen adaptable a la altura */
+    margin-left: 3.5vw; /* Margen adaptable al ancho para que siga la página */
+    width: 95%; /* Ocupar todo el ancho */
+    top: 30vh; /* Ajuste para alineación con la página */
+    gap: 8%; /* Espacio entre elementos adaptable */
+}
+
+.images img {
+    width: 29vw; /* Tamaño adaptable al ancho de la página */
+    height: auto; /* Mantener proporción */
+    object-fit: cover; /* Ajustar imagen sin deformarse */
+    margin-bottom: 50px;
 }
