@@ -110,3 +110,11 @@ p {
     border: 1px solid;
     backdrop-filter: blur(8px)
 }
+
+.img__bac {
+    position: absolute;
+    z-index: -1;
+    left: 416px;
+    height: 1070px;
+    width: 1024px;
+}
