@@ -6,22 +6,8 @@
 }
 
 body {
-    margin: 0; 
-    padding: 0; 
-    background-image: url("../storage/img/page16/background_AI.png"); 
-    background-size: cover;
-    background-position: 350px; 
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh; 
-}
-
-
-
-.block{
-    display: flex; 
-    width: 350px;
-    height: 1000px; 
-    background: linear-gradient(135deg,var(--color-56),35%,var(--color-57)); 
-    position: relative; 
+    display: flex;
+    height: 1070px;
+    width: 1250px;
+    background: background linear-gradient(160deg, var(--color-56) 15.72%, var(--color-57) 68.5%);
 }
