@@ -75,3 +75,38 @@ p {
     line-height: 16px;
     border-radius: 40px;
 }
+
+.category_text h1 {
+    font-family: "Avenir-Heavy";
+    line-height: 32px;
+    font-size: 24px;
+    width: 80px;
+    font-weight: 800;
+}
+
+.category_text img {
+    height: 18px;
+    width: 24px;
+}
+
+.category_text p {
+    font-family: "Avenir-Roman";
+    line-height: 25px;
+    font-size: 18px;
+    width: 230px;
+}
+
+.category{
+    position: absolute;
+    display: flex;
+    padding-right: 56px;
+    padding-bottom: 24px;
+    border-radius: 32px;
+    padding-left: 54px;
+    padding-top: 20px;
+    top: 780px;
+    left: 65px;
+    gap: 92px;
+    border: 1px solid;
+    backdrop-filter: blur(8px)
+}
