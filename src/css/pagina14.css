@@ -1,0 +1,160 @@
+@import url(variable.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    margin-top: 30vh;
+    left: 5vw;
+}
+
+h1{
+    font-family: "Poppins-Bold";
+    font-size: 3.33vw ;
+    color: var(--color-39);
+}
+
+p{
+    font-family: "Poppins-Light";
+    font-size: 1.25vw;
+    color: var(--color-39);
+}
+
+.Download1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    background-color: var(--color-41);
+    width: 260px;
+    height: 65px;
+    border-radius: 25px;
+}
+
+.Download2{
+    color: var(--color-39);
+    font-family: "Poppins-Regular";
+    font-size: 1.7vw;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.imgs{
+    position: fixed;
+}
+
+.star{
+    position: fixed;
+    margin-top:-58vh;
+    left: 43vw;
+    height: 18vh;
+}
+
+.cellphone{
+    position: fixed;
+    top:50vh;
+    left: 46vw;
+    height: 68vh;
+}
+
+
+.big_yellow{
+    position: fixed;
+    margin-top:-50vh;
+    left: 48vw;
+    height: 68vh;
+}
+
+.big_brown{
+    position: fixed;
+    margin-top: -44vh;
+    left: 50vw;
+    height: 75vh;
+}
+
+.heart{
+    position: fixed;
+    margin-top:-26vh;
+    left: 57vw;
+    height: 30vh;
+}
+
+
+.Portal{
+    position: fixed;
+    margin-top: -51vh;
+    left: 72.5vw;
+    height: 20vh;
+}
+
+.portal1{
+    position: fixed;
+    margin-top: -26vh;
+    left: 85vw;
+    height: 18vh;
+}
+
+.star2{
+    position: fixed;
+    margin-top: 18vh;
+    left: 87vw;
+    height: 18vh;
+}
+
+.category{
+    background-color: var(--color-42);
+    position: relative;
+    border-radius: 30px;
+    width: 500px;
+    height: 150px;
+    top: 130px;
+    left: 60px;
+}
+
+.category p{
+    display: flex;
+    font-family: "Poppins-Bold";
+    color: var(--color-4);
+    margin-left: 30px;
+}
+
+.numbers{
+    display: flex;
+    gap: 45px;
+}
+
+.numbers p{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.lines{
+    display: flex;
+    margin-left: 40px;
+    gap: 85px;
+    margin-top: 20px;
+    border: none;           /* Elimina el estilo por defecto */
+}
+
+.sline{
+    display: flex;
+    width: 25px;
+    height: 4px;
+    background-color: var(--color-4);
+    color: var(--color-4);
+    margin-left: 30px;
+    margin-top: -15px; 
+}
+
+.categorytext{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px; 
+}
+
+

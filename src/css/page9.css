@@ -1,0 +1,113 @@
+@import url(variable.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(100deg, var(--color-23), var(--color-24) 45%);
+    height: 110vh;
+}
+header{
+    margin-left: 230px;
+}
+
+header h1{
+    font-family: "Poppins-Bold";
+    color: var(--color-22);
+    font-size: 88px;
+    margin-top: 20px;
+}
+
+header p{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+
+}
+
+.Explore1{
+    background-color: var(--color-22);
+    width: 170px;
+    border-radius: 30px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.Explore2{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-4);
+    text-decoration: none;
+}
+
+.description{
+    position: relative;
+}
+.right{
+    position: absolute;
+    width: 480px;
+    height: 520px;
+    margin-top: -50px;
+    margin-left: 540px;
+}
+
+.left{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+.Lorems{
+    font-family: "Poppins-Regular";
+    position: relative;
+    display: flex;
+    top: 350px;
+    left: 500px;
+    gap: 100px;
+}
+
+.numbers{
+    font-family: "Poppins-Bold";
+    font-size: 24px;
+    color: var(--color-22);
+    gap: 220px;
+    display: flex;
+    margin-left: 100px;
+    line-height: 100px; 
+}
+
+.category{
+    background-color: var(--color-32);
+    position: relative;
+    border-radius: 150px;
+    width: 850px;
+    height: 280px;
+    top: 220px;
+    left: 400px;
+}
+
+.sline{
+    width: 30px;            /* Ancho de la línea */
+    border: none;           /* Elimina el estilo por defecto */
+    border-top: 4px solid var(--color-22); /* Línea de 4px de grosor */
+}
+
+.lines{
+    display: flex;
+    gap: 230px;
+    margin-left: 100px;
+    margin-top: -10px; 
+}
+
+.category_descriptions{
+    display: flex;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    gap: 67px;
+    margin-left: 100px;
+    margin-top: 15px; 
+}

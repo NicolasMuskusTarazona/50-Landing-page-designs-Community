@@ -1,0 +1,107 @@
+@import url(variable.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    font-family: "Times-Regular";
+    top: 10vh;    /* Altura fija pantalla */
+    margin-left: 7vw;    /* Ancho fijo pantalla */
+    color: var(--color-2);
+}
+
+h1 {
+    font-size: 7.11vh; 
+    line-height: 1.2em;  /* Espaciado fijo */
+}
+
+p{
+    font-size: 2.67vh;
+    line-height: 1.2em;
+}
+
+.started1 {
+    background-color: var(--color-48); 
+    display: flex;   
+    width: 14vw;      /* Tamaño fijo con VW */
+    height: 7vh;      /* Tamaño fijo con VH */
+    justify-content: center; 
+    align-items: center;
+    border-radius: 30px;
+    top: 20px; 
+}
+
+.started2{
+    font-family: "Poppins-Regular";
+    color: var(--color-4);
+    font-size: 2.22vh;
+    text-decoration: none;
+}
+
+.imgs_lefts{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    height: 260px;
+}
+
+.left1{
+    margin-top:30px;
+    height: 270px;
+}
+
+.left2{
+    margin-top:-15px;
+    height: 270px;
+}
+
+.circle {
+    position: relative;
+    justify-content: center; /* Los centra */
+    gap: 2vw; /* Espacio entre palabras */
+    top: -600px; 
+    left: 900px;
+}
+
+.circle span {
+    font-family: "Times-Regular";
+    font-size: 4vh;
+    color: var(--color-2);
+    letter-spacing: 0.2em;
+    display: inline-block; /* Para que cada uno sea independiente */
+    margin-top: -850px;
+    right: 250px;
+    position: relative; /* Permite mover cada span sin afectar a los otros */
+}
+
+.circle span:nth-child(1) {
+    transform: translateY(10px);
+}
+
+.circle span:nth-child(2) {
+    transform: translateY(-10px);
+}
+
+.circle span:nth-child(3) {
+    transform: translateY(15px);
+}
+
+.center1{
+    position: relative;
+    justify-content: center; /* Los centra */
+}
+
+.center2{
+    margin-top: -580px;
+    margin-left:670px;
+}
+
+.star1{
+    position: relative;
+    display: flex;
+    top: -520px;
+    left: 470px;
+    height: 70px;
+}
