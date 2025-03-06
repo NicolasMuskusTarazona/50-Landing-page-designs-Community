@@ -59,17 +59,18 @@ header div{
     align-items: center;  /* Centra los elementos verticalmente */
     height: 280px;
     margin-top: 15px;
+    margin-bottom: 70px;
     gap: 17px;
 }
 
 .Rectangle7{
-    border-radius: 20px;
+    border-radius:15px;
     height: 285px;
     width: 315px;
 }
 
 .Rectangle8{
-    border-radius: 20px;
+    border-radius: 15px;
     height: 285px;
     width: 315px;
 }
