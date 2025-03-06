@@ -1,0 +1,148 @@
+@import url(variable.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;  /* Asegura que el body ocupe toda la altura de la pantalla */
+    overflow-x: hidden; /* desplazamiento horizontal no deseado */
+}
+
+header{
+    position: relative;
+    margin-top: 15vh; /* 15% de la altura de la pantalla */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gradient{
+    position: fixed;
+    top: -10vh;  /* Ajusta la distancia desde la parte superior (20% del alto de la pantalla) */
+    left: 23%;
+    width: 60vw;  /* 60% del ancho de la pantalla (ajusta según lo que desees) */
+    height: 110vh; 
+    z-index: -1;
+}
+
+header h1{
+    font-family: "Times-Regular";
+    font-weight: 100;
+    line-height: 80%;
+    color: var(--color-2);
+    font-size: 7vw;
+}
+
+header p{
+    font-family: "Times-Regular";
+    margin-top: 3vw;
+    font-weight: 100;
+    color: var(--color-2);
+    font-size: 2vw;
+}
+
+.Explore1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: var(--color-2);
+    width: 180px;
+    height: 62px;
+    border-radius: 25px;
+}
+
+.Explore2{
+    color: var(--color-4);
+    font-family: "Poppins-Regular";
+    font-size: 1.7vw;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.img{
+    position: fixed;
+}
+
+
+.number01, .number02 {
+    position: fixed;
+    font-family: "Times-Bold";
+    color: var(--color-35);
+    font-size: 2.5vw; /* Tamaño ajustable */
+}
+
+.number01text, .number02text {
+    position: fixed;
+    font-family: "Times-Regular";
+    font-size: 1.7vw;
+    color: var(--color-3);
+    font-weight: 550;
+    z-index: 2;
+}
+
+
+.number01{
+    top: 4.5vh;
+    left: 5vw;
+}
+
+.number01text{
+    top: 10vh;
+    left: 5vw;
+}
+
+.number02{
+    top: 79vh;
+    left: 68vw;
+}
+
+.number02text{
+    top: 85vh;
+    left: 68vw;
+}
+
+.explosion, .star1, .left, .right, .star2, .party {
+    position: absolute;
+    z-index: 1; /* imágenes estén detrás del texto */
+}
+
+.explosion{
+    top: 16vh;
+    left: 8vw;
+    height: 18vh;
+}
+
+.star1{
+    top:17vh;
+    left:22vw;
+    height:32vh;
+}
+
+.left{
+    height: 55vh;
+    top: 35.5vh;
+    left: 5vw;
+}
+
+.right{
+    height:55vh;
+    top: 5vh;
+    left: 70vw;
+}
+
+.star2{
+    top: 52vh;
+    height: 27vh;
+    left: 67vw;
+}
+
+.party{
+    top: 65vh;
+    left: 80vw;
+    height: 15vh;
+}
+
