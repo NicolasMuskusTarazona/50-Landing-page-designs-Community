@@ -8,3 +8,56 @@
 body{
     background-color: var(--color-61);
 }
+
+header h1 {
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 50px;
+    width: 695px;
+    height: 84px;
+    line-height: 84px;
+    font-family: "Poppins-SemiBold";
+}
+header p {
+    height: 99px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Avenir-Roman";
+    color: var(--color-3);
+    width: 689px;
+    height: 99px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+}
+header button {
+    display: flex;
+    font-family: "Poppins-Regular";
+    margin: 0 auto;
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border-radius: 36px;
+    border: none;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    width: 182px;
+    height: 66px;
+    gap: 10px;
+}
+
+.img1 {
+    position: absolute;
+    top: 500px;
+    height: 526px;
+    width: 1312px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 24px; 
+    z-index: -1;
+}
