@@ -5,60 +5,81 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    height: 120vh;
+}
+
+main{
+    display: flex;
+    margin-top: 40px;
+}
+
+
 header {
-    margin-left: 800px;
+    position: absolute;
+    margin-left: 60%;
 }
 
 header h1 {
     font-family: "Avenir-Heavy";
+    position: relative;
     font-size: 5vw;
-    margin-top: 55px;
+    top: 55px;
     color: var(--color-2);
 }
 
-header p {
-    margin-top: 20px;
+
+.paragraph{
+    position: relative;
+    top: 60px;
     font-family: "Avenir-Roman";
-    font-size: 1.5vw; 
+    font-size: 2vw; 
     color: var(--color-3);
     font-weight: 500;
 }
 
 .Explore1 {
+    position: relative;
     display: flex;
-    background: var(--color-2);
-    margin-top: 20px;
-    width: 130px;
-    height: 50px;
-    border-radius: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background: var(--color-2);
+    top: 150px;
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
 }
 
 .Explore2 {
     color: var(--color-4);
     font-family: "Avenir-Roman";
-    font-size: 18px;
+    font-size: 1.5vw;
     text-decoration: none;
 }
 
 .General_Description {
-    margin-top: 60px;
+    position: relative;
+    top: 200px;
 }
 
 .number {
     font-family: "Avenir-Heavy";
-    font-size: 32px;
+    color: var(--color-6);
+    font-size: 2vw;
+    font-weight: 500;
 }
 
 .Description {
-    font-size: 20px;
+    font-family: "Avenir-Roman";
+    color: var(--color-3);
+    font-size: 1.5vw;
 }
 
 main img {
-    width: 52%;
-    height: auto;
-    object-fit: cover;
-    margin-top: -87vh;
+    width: 55vw; 
+    height: 110vh; 
+    top: 30px;
+    object-fit: cover; /* Que nunca se deforme */
 }
