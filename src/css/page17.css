@@ -13,7 +13,7 @@ header h1 {
     margin: 0 auto;
     font-weight: 600;
     font-size: 56px;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 695px;
     height: 84px;
     line-height: 84px;
@@ -28,6 +28,7 @@ header p {
     width: 689px;
     height: 99px;
     margin: 0 auto;
+    margin-top: 50px;
     text-align: center;
     font-weight: 400;
 }
@@ -35,6 +36,7 @@ header button {
     display: flex;
     font-family: "Poppins-Regular";
     margin: 0 auto;
+    margin-top: 50px;
     background-color: var(--color-2);
     color: var(--color-1);
     border-radius: 36px;
@@ -60,4 +62,41 @@ header button {
     transform: translateX(-50%);
     border-radius: 24px; 
     z-index: -1;
+}
+
+.category {
+    display: flex;
+    position: absolute;
+    background-color: var(--color-4);
+    border-radius: 48px;
+    padding-top: 40px;
+    padding-right: 64px;
+    padding-bottom: 40px;
+    padding-left: 64px;
+    width: 1048px;
+    height: 191px;
+    top: 418px;
+    left: 394px;
+    gap: 70px;
+}
+.category h1 {
+    font-family: "Avenir-Heavy";
+    width: 71px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    height: 40px;
+}
+.category hr {
+    background-color: var(--color-2);
+    height: 4px;
+    width: 66px;
+}
+.category p {
+    font-family: "Avenir-Roman";
+    width: 174px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
 }
