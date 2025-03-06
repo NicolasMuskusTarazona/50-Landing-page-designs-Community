@@ -1,0 +1,59 @@
+@import url(variable.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 40px;
+}
+
+header h1{
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+    font-size: 80px;
+}
+
+.numbers{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-left: -10vw; /* Margen adaptable al ancho */
+    font-family: "Avenir-Heavy";
+    font-size: 3vw;
+    width: 100%;
+    color: var(--color-6);
+    gap: 30%;
+}
+
+.description{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    margin-left: 1vw; /* Margen adaptable al ancho */
+    width: 100%;
+    font-family: "Avenir-Roman";
+    font-size: 1.6vw;
+    color: var(--color-3);
+    font-weight: 500;
+    gap: 8%;
+}
+
+.images {
+    position: absolute; /* Cambiado a absolute para que se comporte igual que los números */
+    display: flex;
+    margin-top: 36vh; /* Margen adaptable a la altura */
+    margin-left: 3.5vw; /* Margen adaptable al ancho para que siga la página */
+    width: 95%; /* Ocupar todo el ancho */
+    top: 30vh; /* Ajuste para alineación con la página */
+    gap: 8%; /* Espacio entre elementos adaptable */
+}
+
+.images img {
+    width: 29vw; /* Tamaño adaptable al ancho de la página */
+    height: auto; /* Mantener proporción */
+    object-fit: cover; /* Ajustar imagen sin deformarse */
+    margin-bottom: 50px;
+}
